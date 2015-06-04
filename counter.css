@@ -5,6 +5,7 @@ body {
 h2 {
 	font-family: "Montserrat", sans-serif;
 	color: #d3d3d3;
+	text-align: center;
 }
 
 /*.main-image {
@@ -28,6 +29,7 @@ h2 {
 	font-family: "Lobster", cursive;
 	color: #000;
 	text-align: center;
+	padding-top: 50px;
 }
 
 .add-count {
@@ -51,6 +53,13 @@ h2 {
 	margin-left: auto;
 }
 
+.submit {
+	margin-top: 40px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 ol {
 	list-style-type: none;
 	display: inline;
@@ -63,6 +72,10 @@ input[type="radio"] {
     display:none;
 }
 
+label {
+	padding-left: 70px;
+}
+
 
 input[type="radio"] + label span {
     display:inline-block;
@@ -73,6 +86,18 @@ input[type="radio"] + label span {
     cursor:pointer;
 }
 
+input[type="button"] {
+	display: none;
+}
+
+input[type="button"] + label span {
+	display: inline-block;
+	margin:0px 0px 0 0;
+	height: 155px;
+	width: 255px;
+	vertical-align:middle;
+	cursor:pointer;
+}
 
 
 /*NUMBER ICONS*/
@@ -170,15 +195,49 @@ label #now {
 	background: url(images/now.svg) left top no-repeat;
 }
 
-label #1hr {
+label #hr1 {
 	background: url(images/1hr.svg) left top no-repeat;
 }
 
+label #hr2 {
+	background: url(images/hr2.svg) left top no-repeat;
+}
+
+label #hr3 {
+	background: url(images/hr3.svg) left top no-repeat;
+}
+
+label #hr4 {
+	background: url(images/hr4.svg) left top no-repeat;
+}
 
 input[type="radio"]:checked + label #now {
 	background: url(images/now-clicked.svg) left top no-repeat;
 }
 
-input[type="radio"]:checked + label #1hr {
+input[type="radio"]:checked + label #hr1 {
 	background: url(images/1hr-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #hr2 {
+	background: url(images/hr2-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #hr3 {
+	background: url(images/hr3-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #hr4 {
+	background: url(images/hr4-clicked.svg) left top no-repeat;
+}
+
+
+/*SUBMIT BUTTON*/
+
+label #submit {
+	background: url(images/submit.svg);
+}
+
+label #submit:active {
+	background: url(images/submit-active.svg);
 }
