@@ -7,11 +7,11 @@ h2 {
 	color: #d3d3d3;
 }
 
-.main-image {
-	background: url(images/coffee.jpg) center center fixed; 
+/*.main-image {
+	background: url(images/coffee.jpg) center center fixed;
     background-size: cover;
     height: 100%;
-}
+}*/
 
 .arrow {
 	margin-right: auto;
@@ -20,18 +20,165 @@ h2 {
 }
 
 .arrow i {
-	color: #fff;
+	color: #000;
 }
 
 .header {
 	font-size: 3em;
 	font-family: "Lobster", cursive;
-	color: #fff;
-	padding-left: 90px;
-	margin-top: -400px;
-
+	color: #000;
+	text-align: center;
 }
 
 .add-count {
-	margin-top: 300px;
+	margin-top: 200px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.selector{
+	margin-top:40px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.time {
+	margin-top: 40px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ol {
+	list-style-type: none;
+	display: inline;
+}
+
+/*BUTOON STYLES*/
+
+
+input[type="radio"] {
+    display:none;
+}
+
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:101px;
+    height:101px;
+    margin:0px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+}
+
+
+
+/*NUMBER ICONS*/
+
+label #one {
+	background:url(images/1.svg) left top no-repeat;
+}
+
+label #two {
+	background:url(images/2.svg) left top no-repeat;
+}
+
+label #three {
+	background:url(images/3.svg) left top no-repeat;
+}
+
+label #four {
+	background:url(images/4.svg) left top no-repeat;
+}
+
+label #five {
+	background:url(images/5.svg) left top no-repeat;
+}
+
+
+input[type="radio"]:checked + label #one {
+ 	background: url(images/1-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #two {
+ 	background: url(images/2-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #three {
+ 	background: url(images/3-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #four {
+ 	background: url(images/4-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #five {
+ 	background: url(images/5-clicked.svg) left top no-repeat;
+}
+
+
+/*TYPE ICONS*/
+
+
+label #coffee {
+	background:url(images/coffee.svg) left top no-repeat;
+}
+
+label #shot {
+	background:url(images/shot.svg) left top no-repeat;
+}
+
+label #tea {
+	background: url(images/tea.svg) left top no-repeat;
+}
+
+label #energy {
+	background: url(images/energy.svg) left top no-repeat;
+}
+
+label #soda {
+	background: url(images/soda.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #coffee {
+ 	background: url(images/coffee-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #shot {
+ 	background: url(images/shot-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #tea {
+ 	background: url(images/tea-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #energy {
+ 	background: url(images/energy-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #soda {
+ 	background: url(images/soda-clicked.svg) left top no-repeat;
+}
+
+
+/*TIME ICONS*/
+
+
+label #now {
+	background: url(images/now.svg) left top no-repeat;
+}
+
+label #1hr {
+	background: url(images/1hr.svg) left top no-repeat;
+}
+
+
+input[type="radio"]:checked + label #now {
+	background: url(images/now-clicked.svg) left top no-repeat;
+}
+
+input[type="radio"]:checked + label #1hr {
+	background: url(images/1hr-clicked.svg) left top no-repeat;
 }

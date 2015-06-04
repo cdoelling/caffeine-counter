@@ -7,10 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	</head>
 <body>
-	
-<div class="main-image">	
 
-</div>
+<!-- <div class="main-image">
+</div> -->
 
 <div class="header">
 	<h1>Caffeine Counter</h1>
@@ -23,31 +22,62 @@
 <div class="add-count">
 	<h2>Add how many</h2>
 	<form>
-		<ol>
-			<li><input type="radio" class="count-style" name="count" value="1"></li>
-			<li><input type="radio" class="count-style" name="count" value="2"></li>
-			<li><input type="radio" class="count-style" name="count" value="3"></li>
-			<li><input type="radio" class="count-style" name="count" value="4"></li>
-			<li><input type="radio" class="count-style" name="count" value="5"></li>
-		</ol>
+
+			<input type="radio" id="one" name="count" value="1">
+				<label for="one"><span id="one"></span></label>
+
+			<input type="radio" id="two" name="count" value="2">
+				<label for="two"><span id="two"></span></label>
+
+			<input type="radio" id="three" name="count" value="3">
+				<label for="three"><span id="three"></span></label>
+
+			<input type="radio" id="four" name="count" value="4">
+				<label for="four"><span id="four"></span></label>
+
+			<input type="radio" id="five" name="count" value="5">
+				<label for="five"><span id="five"></span></label>
+
 	</form>
 </div>
 
 <div class="selector">
 	<h2>Of what you had</h2>
 	<form>
-		<ol>
-			<li><input type="radio" name="count" value="coffee"></li>
-			<li><input type="radio" name="count" value="2"></li>
-			<li><input type="radio" name="count" value="3"></li>
-			<li><input type="radio" name="count" value="4"></li>
-			<li><input type="radio" name="count" value="5"></li>
-		</ol>
+
+			<input type="radio" id="coffee" name="kind" value="coffee">
+				<label for="coffee"><span id="coffee"></span></label>
+
+			<input type="radio" id="shot" name="kind" value="shot">
+				<label for="shot"><span id="shot"></span></label>
+
+			<input type="radio" id="tea" name="kind" value="tea">
+				<label for="tea"><span id="tea"></span></label>
+
+			<input type="radio" id="energy" name="kind" value="energy">
+				<label for="energy"><span id="energy"></span></label>
+
+			<input type="radio" id="soda" name="kind" value="soda">
+				<label for="soda"><span id="soda"></span></label>
+
+
 	</form>
 </div>
 
-<div class="">
-<h2>How long ago</h2>
+<div class="time">
+	<h2>How long ago</h2>
+	<form>
+			<input type="radio" id="now" name="time" value="now">
+				<label for="now"><span id="now"></span></label>
+
+			<input type="radio" id="1hr" name="time" value="60">
+				<label for="1hr"><span id="1hr"></span></label>
+
+			<input type="radio" id="2hr" name="time" value="120">
+				<label for="2hr"><span id="2hr"></span></label>
+
+	</form>
+
 </div>
 
 
